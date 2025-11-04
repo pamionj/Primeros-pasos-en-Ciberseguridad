@@ -76,7 +76,8 @@ nmap -sn 172.16.20.0/24
 
 **Descripción:** Ejecuta un ping scan (host discovery) sobre la subred para identificar máquinas activas sin escanear puertos.
 
-MarkDown ![Ejecución de nmap -sn]\(imagenes/nmap-sn.png)
+![Ejecución de nmap -sn](imagenes/nmap-sn.png)
+
 
 ---
 
@@ -88,7 +89,7 @@ nmap -sS -T4 -p- 172.16.20.5
 
 **Descripción:** SYN scan rápido de todos los puertos TCP para detectar cuáles están abiertos.
 
-MarkDown ![Ejecución de nmap -sS]\(imagenes/nmap-ss.png)
+![Ejecución de nmap -sS](imagenes/nmap-ss.png)
 
 ---
 
@@ -100,7 +101,7 @@ nmap -sV 172.16.20.5
 
 **Descripción:** Interroga los puertos abiertos para identificar el servicio y la versión que ejecuta cada puerto (p. ej. OpenSSH 6.7, Samba, etc.).
 
-MarkDown ![Ejecución de nmap -sv]\(imagenes/nmap-sv.png)
+![Ejecución de nmap -sv](imagenes/nmap-sv.png)
 
 ---
 
@@ -112,7 +113,7 @@ nmap -O 172.16.20.5
 
 **Descripción:** Intenta determinar el sistema operativo remoto mediante huellas TTL, puertos y respuestas a paquetes especiales.
 
-MarkDown ![Ejecución de nmap -O]\(imagenes/nmap-os.png)
+![Ejecución de nmap -O](imagenes/nmap-os.png)
 
 ---
 
@@ -124,7 +125,7 @@ nmap --script vuln 172.16.20.5
 
 **Descripción:** Ejecuta los scripts de la categoría `vuln` (NSE) para detectar vulnerabilidades conocidas, como `smb-vuln-ms17-010`.
 
-MarkDown ![Ejecución de nmap -vuln]\(imagenes/nmap-vuln.png)
+![Ejecución de nmap -vuln](imagenes/nmap-vuln.png)
 
 ---
 
