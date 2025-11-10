@@ -281,3 +281,9 @@ El análisis evidencia que el **host 172.16.20.5** presenta vulnerabilidades cr�
 
 Este repositorio forma parte del desarrollo académico en **Seguridad de la Información** y tiene fines **formativos y demostrativos** sobre el uso ético de herramientas de ciberseguridad.
 
+## 📄 Licencia
+
+© 2025 Pablo Amion. Todos los derechos reservados.
+
+---
+
