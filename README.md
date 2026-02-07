@@ -283,6 +283,10 @@ Este repositorio forma parte del desarrollo académico en **Seguridad de la Info
 
 ## 📄 Licencia
 
+Este proyecto está bajo la licencia MIT
+
+Ver archivo `LICENSE` para más detalles.
+
 © 2025 Pablo Amion. Todos los derechos reservados.
 
 ---
